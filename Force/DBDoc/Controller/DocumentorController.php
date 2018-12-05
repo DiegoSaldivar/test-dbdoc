@@ -1,11 +1,14 @@
 <?php
 namespace Force\DBDoc\Controller;
 
+
+use Symfony\Component\HttpFoundation\Response;
+
 class DocumentorController
 {
     public function allAction()
     {
-        return 'Hello world';
+        return new Response('Hello world');
     }
 }
 
