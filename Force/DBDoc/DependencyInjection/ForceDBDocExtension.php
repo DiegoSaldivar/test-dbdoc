@@ -16,6 +16,7 @@ class ForceDBDocExtension extends Extension
        $loader = new YamlFileLoader($container, $locator);
        
        $loader->load('services.yaml');
+       
     }
 }
 
