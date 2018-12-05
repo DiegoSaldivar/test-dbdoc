@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
 
     public function getConfigTreeBuilder()
     {
-        $builder = new TreeBuilder();
+        $builder = new TreeBuilder('force_db_doc');
         
         $root = $builder->root('force_db_doc');
         $root->children()   
